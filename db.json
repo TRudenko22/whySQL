@@ -1,0 +1,26 @@
+[
+    {
+        "First": "Tim",
+        "Last": "Rudenko",
+        "DOB": "04/18/98",
+        "phone": "413-232-3443"
+    },
+    {
+        "First": "Miles",
+        "Last": "Davis",
+        "DOB": "23/23/23",
+        "phone": "324-234-2342"
+    },
+    {
+        "First": "Jeff",
+        "Last": "Bridges",
+        "DOB": "23/12/45",
+        "phone": "234-234-2342"
+    },
+    {
+        "First": "Angelina",
+        "Last": "Jolie",
+        "DOB": "12/23/34",
+        "phone": "234-422-4444"
+    }
+]
