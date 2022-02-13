@@ -9,7 +9,7 @@ import pretty_errors
 app = typer.Typer()
 
 @app.command()
-def insert(field1: str, field2: str, field3: str, field4: str) -> None:
+def insert(field1, field2, field3, field4) -> None:
     record = {col_1: field1, col_2: field2, col_3: field3, col_4: field4}
 
     data = open_db()
@@ -19,17 +19,17 @@ def insert(field1: str, field2: str, field3: str, field4: str) -> None:
 
 
 @app.command()
-def qn(name: str) -> None:
+def qn(name) -> None:
     data = open_db()
-    
+
     query = []
     for index in range(len(data)):
         if data[index][field1].lower() == name.lower():
             query.append(data[index])
-        
+
         elif data[index][field2].lower() == name.lower():
                     query.append(data[index])
-    
+
     if query:
         print(tabulate(query, headers='keys', tablefmt='fancy_grid', showindex=True))
     else:
@@ -40,6 +40,14 @@ def qn(name: str) -> None:
 def show() -> None:
     print(title)
     print(tabulate(open_db(), headers='keys', tablefmt='fancy_grid', showindex=True))
+
+
+@app.command()
+def delete(index):
+    data = open_db()
+    data.pop(int(index))
+    writeJSON(data,'db.json')
+
 
 def writeJSON(data, sFile_name):
     with open(sFile_name, 'w') as db:
