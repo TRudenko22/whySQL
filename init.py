@@ -17,7 +17,7 @@ Y88b 888 d88P 888  888 Y88b 888 Y88b  d88P Y88b.Y8b88P 888
 # Configuration Settings #
 ##########################
 
-col_1 = "First"
-col_2 = "Last"
-col_3 = "DOB"
-col_4 = "Phone"
+col_1 = "first"
+col_2 = "last"
+col_3 = "dob"
+col_4 = "email"

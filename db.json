@@ -1,14 +1,32 @@
 [
     {
-        "First": "Tony",
-        "Last": "Montana",
-        "DOB": "12/12/12",
-        "Phone": "342-343-4343"
+        "first": "Tim",
+        "last": "Rudenko",
+        "dob": "413-232-2322",
+        "email": "tim@email.com"
     },
     {
-        "First": "Tony",
-        "Last": "Soprano",
-        "DOB": "12/12/12",
-        "Phone": "234-343-3434"
+        "first": "Timmy",
+        "last": "Rudenko",
+        "dob": "23/23/23",
+        "email": "jkjk@gmail.com"
+    },
+    {
+        "first": "Tim",
+        "last": "Rudenko",
+        "dob": "413-232-2322",
+        "email": "tim@email.com"
+    },
+    {
+        "first": "Timmy",
+        "last": "Rudenko",
+        "dob": "23/23/23",
+        "email": "jkjk@gmail.com"
+    },
+    {
+        "first": "Timmy",
+        "last": "Rudenko",
+        "dob": "23/23/23",
+        "email": "jkjk@gmail.com"
     }
 ]
