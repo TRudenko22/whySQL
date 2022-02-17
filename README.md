@@ -1,2 +1,3 @@
 # whySQL
-a JSON based flat-file database
+
+A Python JSON file parser.
