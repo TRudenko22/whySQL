@@ -4,7 +4,7 @@ from tabulate import tabulate
 from init import *
 import typer
 import json
-import pretty_errors
+
 
 app = typer.Typer()
 
