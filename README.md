@@ -1,6 +1,6 @@
 # whySQL
 
-A Python JSON file parser.
+A JSON file parser written in Python.
 
 ### Why I built this.
 I wanted a quick way to format data to use in other programs.
